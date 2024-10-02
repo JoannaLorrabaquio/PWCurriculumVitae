@@ -1,0 +1,86 @@
+/* Estilo para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #eed3e4;
+}
+
+/* Título principal */
+h1 {
+    color: #89326f;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Imagen del perfil */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+}
+
+/* Secciones de subtítulo */
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+/* Datos de contacto */
+dl {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 40px;
+}
+
+/* Listas ordenadas (Formación Académica) */
+ol {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Listas no ordenadas (Habilidades) */
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo específico para habilidades */
+ul ul {
+    margin-left: 40px;
+    list-style-type: square;
+}
+
+ul ul li {
+    margin-bottom: 5px;
+}
+
+/* Alinear el texto del párrafo principal */
+p {
+    text-align: justify;
+}
+
+/* Estilo para las imágenes dentro de los datos de contacto */
+dl img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
